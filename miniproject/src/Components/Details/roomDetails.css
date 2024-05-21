@@ -1,0 +1,95 @@
+.main-container{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+h1, p{
+    text-align: left;
+}
+.images-map{
+    border: 1px solid black;
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.allimages{
+    border: 1px solid black;
+    width: 75%;
+    height: 600px;
+    display: block;
+}
+.location{
+    border: 1px solid black;
+    width: 24%;
+    margin-left: 1%;
+    height: 600px;
+    display: block;
+}
+.img-top{
+    border: 1px solid black;
+    height: 75%;
+    display: flex;
+}
+
+.img-flex{
+    border: 1px solid black;
+    display: block;
+    width: 30%;
+}
+.img1, .img2{
+    width: 100%;
+    border: 1px solid black;
+    height: 49%;
+}
+.img2{
+    margin-top: 3%;
+}
+.img-flex2{
+    border: 1px solid black;
+    display: flex;
+    width: 70%;
+}
+.img-bottom{
+    border: 1px solid black;
+    height: 23.5%;
+    margin-top: 1%;
+    display: flex;
+}
+.bottom-imgs{
+    width: 24%;
+    height: 100%;
+    border: 1px solid black;
+}
+.bottom-imgss{
+    width: 24%;
+    height: 100%;
+    border: 1px solid black;
+    margin-left: 1.4%;
+}
+
+
+.nearbylocation{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.nearbydetails{
+    width: 75%;
+    border: 1px solid black;
+}
+.property-helight{
+    width: 23%;
+    margin-left: 2%;
+    border: 1px solid black;
+}
+.linegap{
+    margin-top: 30px;
+}
+
+.similar-rooms{
+    width: 80%;
+    margin-left: 10%;
+    border: 1px solid black;
+    display: flex;
+    overflow: scroll;
+}
