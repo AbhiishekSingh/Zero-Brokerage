@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.header {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    color: #4CAF50;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.actions .btn {
+    background-color: #f04e4e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.actions .btn.schedule {
+    background-color: #4CAF50;
+}
+
+.actions .btn.explore {
+    background-color: #2c88d9;
+}
+
+.tip {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #e7f5fe;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #b8e1fa;
+}
+
+.plans {
+    text-align: center;
+}
+
+.plans h2 {
+    margin-bottom: 10px;
+}
+
+.plan {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    vertical-align: top;
+}
+#freedom{
+    /* background-color: #8467B7; */
+    background-image: linear-gradient(to right, #8467B7,violet);
+}
+#relax{
+    background-image: linear-gradient(to right, #bb832d,#FCBC5C);
+}
+
+#moneyback{
+    
+    background-image: linear-gradient(to right, #924C33,#e5805c);
+    
+}
+#freedom button{
+    background-color: #c19ffc;
+}
+#relax button{
+    background-color: #fcc97c;
+}
+#moneyback button{
+    background-color: #ff966f;
+}
+#freedom h3, #freedom p{
+    color: #34136d;
+    font-weight: 700;
+}
+#relax h3, #relax p{
+    color: #b6720d;
+    font-weight: 700;
+}
+#moneyback h3, #moneyback p{
+    color: #df683c;
+    font-weight: 700;
+}
+
+.plan button{
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.plan ul li {
+    background: url('check.png') no-repeat left center;
+    padding-left: 0px;
+    margin: 10px 0;
+}
+
+.plan p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.plan .btn.subscribe {
+    background-color: #4CAF50;
+}

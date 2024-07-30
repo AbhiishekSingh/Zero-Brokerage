@@ -1,0 +1,103 @@
+.filter-container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-color: white;
+    width: 350px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: sticky;
+    top: 80px;
+    left: 30px;
+    margin-top: 90px;
+    margin-bottom: 25px;
+    margin-left: 12%;
+    overflow-y: visible;
+  }
+  
+  .filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-header h2 {
+    margin: 0;
+    color: black;
+    font-weight: 500;
+    font-size: 1.5svw;
+  }
+  
+  .reset-button {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .filter-section {
+    margin-bottom: 20px;
+  }
+  
+  .filter-section h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .bhk-options button {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .price-range {
+    width: 100%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="checkbox"], input[type="radio"] {
+    margin-right: 5px;
+    accent-color: rgb(206, 33, 33);
+  }
+
+  @media screen and (min-width: 769px) and (max-width: 1024px){
+    .Filter-Container{
+      position: sticky;
+    }
+    .filter-container {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      background-color: white;
+      width: 90%;
+      padding: 12px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      top: 60px;
+      left: 15px;
+      margin-top: 65px;
+      margin-bottom: 20px;
+      margin-left: 5%;
+      overflow-y: visible;
+    }
+    .filter-header h2{
+      font-size: 18px;
+      font-weight: 600;
+      color: rgb(82, 77, 77);
+    }
+    .filter-section{
+      margin-top: 0px;
+    }
+    .filter-section h3{
+      font-size: 14;
+    }
+
+  }

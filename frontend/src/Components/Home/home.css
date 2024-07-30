@@ -1,0 +1,125 @@
+*{
+    border: 0;
+}
+.hu{
+ height: 500px;
+ background-image: url(https://images7.alphacoders.com/133/thumb-1920-1338271.png);
+ margin-top: 0px;
+ justify-content: center;
+ top: 50%;
+}
+.hu h1{
+    font-size: 5vw;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+.searchfeatures{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+.searchfeatures input{
+    width: 25%;
+    height: 40px;
+    padding-left:5px;
+    padding-top: 5px;
+    font-size: 1.5vw;
+    color: black;
+}
+.searchfeatures button{
+    background-color: rgb(53, 220, 53);
+    font-size: 1.4vw;
+    padding: 5px;
+    color: white;
+    border-top-right-radius:2px;
+    border-bottom-right-radius: 2px;
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.listofsuggestions{
+    width: 30%;
+    max-width: 625px;
+    background-color: white;
+    font-size: 1.4vw;
+    margin-left: 34.9%;
+    max-height: 350px;
+    overflow-y: scroll;
+}
+.suggestion-list{
+    padding: 5px;
+    border-bottom: silver 1px solid;
+}
+.our-rooms,  .citys-head{
+    font-size: 26px;
+    font-weight: 700;
+    color: #161717;
+    text-align: center;
+    margin-top: 90px;
+}
+.citys-desc{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+.stepss{
+    margin-left: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.place{
+ height: 400px;
+ width: 400px;
+ background-image: url(https://www.mistay.in/travel-blog/content/images/2018/03/mumbai-1.jpg);
+ object-fit: cover;
+ font-size: 60px;
+ font-weight: 600;
+ text-align: center;
+ color: rgb(0, 0, 0);
+}
+.allcitys{
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.Accommondation{
+    margin-left: 10%;
+    margin-top: 70px;
+}
+.middle{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 45px;
+    gap: 2.5%;
+    margin-bottom: 80px;
+}
+.one{
+    display: block;
+    max-width: 300px;
+}
+.oneh1{
+    color: #374151;
+    font-weight: 700;
+    font-size: 1.8vw;
+}
+.one p{
+    font-size: 1.2vw;
+}
+.oneimg{
+    width: 50px;
+    height: 50px;
+    max-height: 50px;
+}
+.onep{
+    margin-top: 5px;
+}
+.room-recomendations{
+    display: flex;
+}
+
